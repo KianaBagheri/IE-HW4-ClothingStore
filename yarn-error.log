@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js add express
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1659:34)
+      at TLSSocket.emit (node:events:517:28)
+      at TLSSocket._finishInit (node:_tls_wrap:1070:8)
+      at ssl.onhandshakedone (node:_tls_wrap:856:12)
+
+npm manifest: 
+  {
+    "name": "ie-hw4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "devStart": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
